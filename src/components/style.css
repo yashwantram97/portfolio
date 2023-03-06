@@ -1,0 +1,282 @@
+body{
+    background-color: #222222;
+    color: white;
+}
+
+.timeline{
+    margin-top: 50px;
+    background-color: white;
+    padding: 10px;
+}
+
+.skill-img{
+    object-fit: contain;
+}
+
+.show-skills-lg{
+    display: none;
+}
+
+.show-skills-sm{
+    display: inline;
+}
+
+.skill-dropdown-heading{
+    background-color: #222222;
+    color: wheat;
+    border: none;
+    font-size: x-large;
+}
+
+.vertical-timeline-element-date{
+    color: #333;
+
+}
+
+.navbar-brand{
+    font-size: x-large;
+    font-weight: bold;
+    margin-right: 25px;
+}
+
+.navbar-brand:hover{
+    color: white;
+}
+
+.navbar-link{
+    padding: 2px;
+    margin-top: 5px;
+}
+
+.navbar-link:hover{
+    padding: 2px;
+    color: #5A61ED;
+}
+
+.footer{
+    background-color: white;
+}
+
+.footer-icon{
+    font-size: x-large;
+    margin-left: 10px;
+}
+
+.footer-style{
+    color: #222222;
+}
+
+.footer-text{
+    color: #222222;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.project-cert-heading{
+    line-height: 130%;
+    letter-spacing: 1.5px;
+    font-size: 38px;
+    margin-bottom: 50px;
+}
+
+.skill-head{
+    line-height: 130%;
+    letter-spacing: 1.5px;
+    font-size: 38px;
+    margin-top: 70px;
+}
+
+.timeline-heading{
+    color: #222222;
+    line-height: 130%;
+    letter-spacing: 1.5px;
+    font-size: 38px;
+    margin-bottom: 50px;
+    margin-top: 75px;
+}
+
+
+.timeline-heading-about{
+    line-height: 130%;
+    letter-spacing: 1.5px;
+    font-size: 38px;
+    margin-bottom: 50px;
+}
+
+
+.img-resp {
+    width: 280px;
+    height: 300px;
+    object-fit: cover;
+    box-shadow: 10px 10px 5px #000000;
+      -moz-box-shadow: 10px 10px 5px #000000;
+      -webkit-box-shadow: 10px 10px 5px #000000;
+      -khtml-box-shadow: 10px 10px 5px #000000;
+}
+
+.heighlight {
+    font-size: medium;
+    color: #5A61ED;
+}
+
+.about{
+    line-height: 130%;
+    letter-spacing: 3px;
+    font-size: 28px;
+    font-style: italic;    
+}
+
+.brief {
+    line-height: 130%;
+    letter-spacing: 3px;
+    font-size: 32px;
+}
+
+
+.vertical-timeline-element-date{
+    color: #333;
+    text-align: center;
+}
+
+.card-text {
+    color: #222222;
+}
+
+.carousel{
+    display: flex;
+}
+
+.carousel-card{
+    /* border: 1px solid snow; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+
+.skill-level-text{
+    color: wheat
+}
+
+.navbar{
+    background-color: #222222;
+    color: white;
+}
+
+.navbar-toogle{
+    background-image: url("data:image/svg+xml,<svg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'><path stroke='rgba(255,255,255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/></svg>");
+}
+
+.navbar-head{
+    margin-bottom: 100px;
+}
+
+    
+@media only screen and (min-width: 600px) {
+    .img-resp {
+      width: 400px;
+      height: auto;
+    }
+
+    .show-skills-lg{
+        display: inline;
+    }
+
+    .show-skills-sm{
+        display: none;
+    }
+    
+    .brief {
+        line-height: 130%;
+        letter-spacing: 3px;
+        font-size: 48px;
+    }
+
+    .navbar-link{
+        padding: 2px;
+        margin-right: 5px;
+    }
+    
+    .navbar-link:hover{
+        padding: 2px;
+        color: #5A61ED;
+    }
+    
+    .about{
+        line-height: 160%;
+        letter-spacing: 2px;
+        font-size: 40px; 
+        font-style: italic;
+        padding: 25px;
+    }    
+
+    .border{
+        border: 1px solid cornsilk;
+    }
+
+    .margin{
+        margin-bottom: 150px;
+    }
+
+    .margin-shadow{
+        margin-top: 125px;
+        margin-bottom: 260px;
+        box-shadow: 10px 10px 5px #000000;
+        -moz-box-shadow: 10px 10px 5px #000000;
+        -webkit-box-shadow: 10px 10px 5px #000000;
+        -khtml-box-shadow: 10px 10px 5px #000000;
+    }
+
+    .project-cert-heading{
+        line-height: 130%;
+        letter-spacing: 3px;
+        font-size: 48px;
+        margin-top: 100px;
+        margin-bottom: 70px;
+    }
+    
+    .skill-head{
+        line-height: 130%;
+        letter-spacing: 3px;
+        font-size: 48px;
+        margin-top: 100px;
+        margin-bottom: 50px;
+    }
+
+    .timeline-heading{
+        color: #222222;
+        line-height: 130%;
+        letter-spacing: 3px;
+        font-size: 48px;
+    }
+
+    .timeline-heading-about{
+        margin-top: 160px;
+        line-height: 130%;
+        letter-spacing: 3px;
+        font-size: 48px;
+    }
+
+    .vertical-timeline-element-date{
+        color: #333;
+        text-align: left;
+    }
+
+    .skill{
+        width: 92%;
+    }
+
+    .footer-icon{
+        font-size: xx-large;
+        margin-left: 10px;
+    }    
+
+    .navbar-brand{
+        font-size: xx-large;
+        margin-right: 25px;
+    }    
+        
+}
+
+
+
