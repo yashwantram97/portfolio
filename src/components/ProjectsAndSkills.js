@@ -59,7 +59,7 @@ export default function ProjectsAndSkills(props){
         return (
             <>
             <div className="card" style={{width: "18rem"}}>
-                <img className="card-img-top skill-img" src={props.thumbnail} alt="Card image cap"/>
+                <img className="card-img-top skill-img" src={props.thumbnail} alt="skill"/>
                 <div className="card-body">
                     <h5 className="card-title card-text">{props.title}</h5>
                     <p className="card-text">{props.content}</p>

@@ -23,7 +23,7 @@ export default function Home(){
                     <Navbar.Brand className="navbar navbar-brand">Yashwant Ram</Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" className="navbar-toogle"/>
                     <Navbar.Collapse id="basic-navbar-nav" className="navbar">
-                    <Nav className="me-auto" className="navbar" variant="pills">
+                    <Nav className="me-auto navbar" variant="pills">
                         <Nav.Link href="#home-tag" className="navbar navbar-link">Home</Nav.Link>
                         <Nav.Link href="#about-tag" className="navbar navbar-link">About</Nav.Link>
                         <Nav.Link href="#career-tag" className="navbar navbar-link">Career</Nav.Link>
@@ -40,7 +40,7 @@ export default function Home(){
 
             <div className="row my-5 margin">
                 <div className="col-lg-6 order-md-last text-center">
-                        <img src={require('/home/yash/Documents/portfolio/portfolio/src/images/profile.jpg')} className="img-resp" />
+                        <img src={require('../images/profile.jpg')} className="img-resp" alt="profile"/>
                 </div>
 
                 <div className="col-lg-6 d-flex align-items-center mt-5">
