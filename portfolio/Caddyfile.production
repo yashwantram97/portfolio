@@ -1,0 +1,8 @@
+slatducation.co.in:443 {
+    tls yash97r@gmail.com
+    root * /srv
+    route {
+        try_files {path} {path} /index.http
+        file_server
+    }
+}

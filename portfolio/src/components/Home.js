@@ -75,7 +75,7 @@ export default function Home(){
                     "Hi, I am Yashwant Ram, a software developer, 
                     I love developing end to end software systems 
                     majorly web. I am also super intrested in AI and 
-                    currently exploring various algorithms and 
+                    currently exploring various algorithms and how
                     it can be used in software to improve experience." 
                 </h2>
             </div>

@@ -1,0 +1,28 @@
+version: "3.8"
+services:
+  client:
+    container_name: client
+    build:
+      context: portfolio
+      dockerfile: Dockerfile
+      args:
+        - CADDYFILE=Caddyfile.local
+    stdin_open: true
+    ports: 
+      - "80:80"
+      - "443:443"
+    networks:
+      - portfolio-app
+    volumes:
+    - caddy-data:/data
+    - caddy-config:/config
+
+networks:
+  portfolio-app:
+    driver: bridge
+
+volumes:
+  caddy-data:
+    driver: local
+  caddy-config:
+    driver: local

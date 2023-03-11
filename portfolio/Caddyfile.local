@@ -1,0 +1,7 @@
+http://localhost:80 {
+    root * /srv
+    route {
+        try_files {path} {path} /index.http
+        file_server
+    }
+}

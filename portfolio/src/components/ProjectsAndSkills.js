@@ -92,7 +92,7 @@ export default function ProjectsAndSkills(props){
                   <Card 
                   isCertificate={true}
                   title="Algoexpert - DSA"
-                  content="Solved more than 125+ DSA problems across various topics and certifies by algoexpert team in 
+                  content="Solved more than 125+ DSA problems across various topics and certified by algoexpert team in 
                   data structures and algorithm."
                   certificateLink='https://certificate.algoexpert.io/AE-8a7a13333b'
                   thumbnail={dsa}
@@ -101,8 +101,8 @@ export default function ProjectsAndSkills(props){
                 <div className="carousel-card">
                   <Card isProject={true}
                   title="Exam Proctor"
-                  content="Created an fully automated Exam Proctor backed by AI system. You will be able to create content and take
-                  exams. In case of any mal practice AI system will identify and terminate the exam."
+                  content="Created an fully automated Exam Proctor application backed by AI system. You will be able to create content and take
+                  exams. In case of any mal-practice, AI system will identify and terminate the exam."
                   githubLink='https://github.com/yashwantram97/Slat-Edu'
                   demoLink='https://youtu.be/mS7rEv2oSk8'
                   thumbnail={proctor}
@@ -111,7 +111,7 @@ export default function ProjectsAndSkills(props){
                 <div className="carousel-card">
                   <Card isProject={true}
                   title="Youtube Scapper"
-                  content="Created a youtube scrapper when the scrapper will collected you recently uploaded video and data's like the
+                  content="Created a youtube scrapper where the scrapper will collect you recently uploaded video and data like the
                   impressions it created and comments and will show it in you dashboard."
                   githubLink='https://github.com/yashwantram97/youtube-scrapper'
                   demoLink='https://youtu.be/JGmLGclV0MY'
